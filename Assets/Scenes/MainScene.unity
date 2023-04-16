@@ -1682,6 +1682,7 @@ GameObject:
   m_Component:
   - component: {fileID: 246006201}
   - component: {fileID: 246006200}
+  - component: {fileID: 246006202}
   m_Layer: 0
   m_Name: TargetPortal
   m_TagString: Untagged
@@ -1727,6 +1728,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!41 &246006202
+OcclusionPortal:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246006199}
+  m_Open: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1, z: 1}
 --- !u!4 &272663218 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 465476, guid: 1657f12d57b3c35408da3ee1cbda09eb, type: 3}
@@ -14342,7 +14353,7 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.53841645
+  - screenRelativeHeight: 0.19913849
     fadeTransitionWidth: 0
     renderers: []
   - screenRelativeHeight: 0.19913849
